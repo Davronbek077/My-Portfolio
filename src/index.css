@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #0D1117;
+    color: #C9D1D9;
+}
+
+.container{
+    width: 100%;
+    max-width: 1260px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.container-navbar{
+    width: 100%;
+    margin: auto;
+}

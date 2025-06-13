@@ -1,0 +1,100 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.address, .number, .email{
+    margin-bottom: 25px;
+}
+
+.address h3, .number h3, .email h3, .telegram h3{
+    padding-bottom: 8px;
+}
+
+.address #country{
+    padding-bottom: 5px;
+}
+
+.message .email-input{
+    margin-bottom: 15px;
+}
+
+.email-input input, .message-input textarea{
+    background-color: #0D1117;
+    border: 1px solid white;
+    color: white;
+    border-radius: 6px;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.email-input input:focus, .message-input textarea:focus{
+    border: 1px solid blue;
+    box-shadow: 0 0 8px blue;
+}
+
+.email-input input{
+    width: 185px;
+    height: 30px;
+    padding-left: 12px;
+}
+
+.message-input textarea{
+    width: 185px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    resize: none;
+    font-family: "Cabin", sans-serif;
+    font-size: 14px;
+}
+
+.message-btn button{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(26, 139, 246, 0.808);
+    padding: 7px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.message-btn{
+    margin-top: 8px;
+}
+
+@media screen  and (max-width: 548px) {
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .address h3, .number h3, .email h3, .telegram h3{
+        font-size: 22px;
+    }
+
+    .address p, .number p, .email p, .telegram p{
+        font-size: 18px;
+    }
+
+    .message{
+        margin-top: 50px;
+    }
+
+    .email-input input, .message-input textarea{
+        width: 280px;
+        font-size: 15px;
+    }
+
+    .email-input input{
+        height: 35px;
+    }
+
+    .message-btn button{
+        font-size: 17px;
+    }
+}
