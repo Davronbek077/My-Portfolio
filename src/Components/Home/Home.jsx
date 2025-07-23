@@ -36,7 +36,7 @@ const Home = () => {
         <div className="home-container">
         <div id='hide' className="home-wrapper">
         <div className="photo-wrap">
-                <img src={homePhoto} alt="" />
+                <img id='hide-img' src={homePhoto} alt="" />
             </div>
             <div className="text-wrap">
                 <div className="home-name">

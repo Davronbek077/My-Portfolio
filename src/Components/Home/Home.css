@@ -11,6 +11,10 @@
     border-radius: 10px;
 }
 
+.photo-wrap #hide-img, #hide, .about-photo{
+    margin-bottom: 30px;
+}
+
 .text-wrap{
     width: 500px;
 }
