@@ -1,5 +1,5 @@
 import React from 'react'
-import homePhoto from '../../assets/photo.png'
+import homePhoto from '../../assets/photo.jpg'
 import olchaPhoto from '../../assets/olcha.png'
 import myticketPhoto from '../../assets/myticket.png'
 import frontendPhoto from '../../assets/frontend.jpg'

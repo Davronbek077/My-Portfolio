@@ -30,7 +30,7 @@ const Footer = () => {
 
       <div className="message">
         <div className="email-input">
-            <input type="text" placeholder='Enter your email' />
+            <input type="email" placeholder='Enter your email' />
         </div>
 
         <div className="message-input">

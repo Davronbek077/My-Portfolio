@@ -68,3 +68,42 @@
         margin-right: 400px;
     }
 }
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .desktop-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* 520px dan kichik ekranlar uchun */
+  @media screen and (max-width: 520px) {
+    .desktop-nav ul li {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: block;
+      font-size:35px;
+    }
+  }
+  
